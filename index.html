@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <link rel="stylesheet" type="text/css" href="pocstyle.css" />
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-title">Smart Search</h1>
+        <div class="search-container">
+            <input type="text" id="searchQuery" placeholder="Search..." />
+            <button onclick="search()">Search</button>
+        </div>
+        
+        <div id="youtube-results" class="result-section youtube-section">
+            <h2 style="color: white;">YouTube Videos</h2>
+            <div class="result-grid"></div>
+        </div>
+
+        <div id="article-results" class="result-section article-section">
+            <h2>Articles</h2>
+            <div class="result-list"></div>
+        </div>
+
+        <div id="blog-results" class="result-section blog-section">
+            <h2>Blogs</h2>
+            <div class="result-list"></div>
+        </div>
+
+        <div id="paper-results" class="result-section paper-section">
+            <h2>Academic Papers</h2>
+            <div class="result-list"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
