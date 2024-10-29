@@ -14,7 +14,7 @@ import java.util.List;
 @Service
 public class AcademicPaperService {
     private static final String API_URL = "https://www.googleapis.com/customsearch/v1";
-    private static final String API_KEY = "AIzaSyDWSgjIM9uLLJtS058r0mHFxXf61ckIWFk";
+    private static final String API_KEY = "********************";
     private static final String CX = "f49c7d8347d524c4e"; // Custom Search Engine ID configured for academic sources
 
     public List<AcademicPaper> searchPapers(String query) {

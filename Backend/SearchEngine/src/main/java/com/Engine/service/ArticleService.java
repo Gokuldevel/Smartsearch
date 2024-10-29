@@ -14,7 +14,7 @@ import java.util.List;
 @Service
 public class ArticleService {
     private static final String API_KEY = "AIzaSyDWSgjIM9uLLJtS058r0mHFxXf61ckIWFk";
-    private static final String CX = "f49c7d8347d524c4e";
+    private static final String CX = "*******************";
     private static final String API_URL = "https://www.googleapis.com/customsearch/v1";
 
     public List<Article> searchArticles(String query) {
