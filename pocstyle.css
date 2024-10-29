@@ -81,7 +81,7 @@ button:hover {
 }
 
 .video-card {
-    flex: 1 1 calc(30% - 15px); /* 3 items per row with some gap */
+    flex: 1 1 calc(30% - 15px); 
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -115,13 +115,13 @@ button:hover {
 }
 
 .article-card:hover, .blog-card:hover, .paper-card:hover {
-    transform: scale(1.03); /* Slightly enlarge on hover */
+    transform: scale(1.03); 
 }
 
 .article-card h3, .blog-card h3, .paper-card h3 {
-    margin: 0; /* Remove default margin */
+    margin: 0; 
 }
 
 .article-card p, .blog-card p, .paper-card p {
-    margin: 5px 0; /* Margin for summary */
+    margin: 5px 0;
 }

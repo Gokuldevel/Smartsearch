@@ -48,7 +48,6 @@ async function search() {
         document.querySelector('#blog-results .result-list').appendChild(card);
     });
 
-    // Display Academic Papers
     data.papers.forEach(paper => {
         const card = document.createElement('div');
         card.className = 'paper-card';
